@@ -1,0 +1,19 @@
+  <nav>
+        <img src="images/logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menuClose" class="bi bi-x"></i>
+
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="login.html">Login</a> </li>
+                <li><a href="#">Signup</a>
+                    
+                    </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menuBtn" src="images/menu.png" alt="">
+        </div>
+    </nav>

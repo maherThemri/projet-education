@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ***********navigation ******** -->
+    <header>
+        <img src="images/logo.jpg" alt="">
+
+        <input type="checkbox" id="menuBar">
+        <label for="menuBar">Menu</label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Signup</a>
+                <ul>
+                    <li><a href="signup.html">Student</a></li>
+                    <li><a href="signupProfessor.html">Professor</a></li>
+                    <li><a href="signupAdmin.html">Admin</a></li>
+                </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- home -->
+    <section id="aboutHome">
+        <h2>Blog</h2>
+        
+
+        </div>
+
+    </section >
+ 
+    <section id="blogContainer">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Development In The Easiest Way</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Illo ipsa hic, atque
+                     debitis nesciunt quas ipsum, assumenda
+                      optio molestias praesentium ratione 
+                      commodi deleniti laborum 
+                    voluptas voluptatum velit 
+                    minus cum reprehenderit.</p>
+                    <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Learn Development In The Easiest Way</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Illo ipsa hic, atque
+                     debitis nesciunt quas ipsum, assumenda
+                      optio molestias praesentium ratione 
+                      commodi deleniti laborum 
+                    voluptas voluptatum velit 
+                    minus cum reprehenderit.</p>
+                    <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Learn Development In The Easiest Way</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Illo ipsa hic, atque
+                     debitis nesciunt quas ipsum, assumenda
+                      optio molestias praesentium ratione 
+                      commodi deleniti laborum 
+                    voluptas voluptatum velit 
+                    minus cum reprehenderit.</p>
+                    <a href="post.html">Read More</a>
+            </div>
+            
+        </div>
+
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Frontend Web</a>
+            <hr>
+            <a href="#">Python programming</a>
+            <hr>
+            <a href="#">JavaScript Hack</a>
+        </div>
+    </section>
+
+   
+
+   
+    <footer>
+        <div class="footeCol">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+
+        </div>
+        <div class="footeCol">
+            <li>Power Tools</li>
+            <li>Jobs</li>
+            <li>Marketing Service</li>
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+
+        </div>
+        <div class="footeCol">
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <h3>Top Products</h3>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+
+        </div>
+        <div class="footeCol">
+            <h3>Guides</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+
+        </div>
+        <div class="footerCol">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+
+
+            </div>
+
+        </div>
+        <div class="copyRight">
+            <p>CopyRight 2022 ALL rights reserved | This template is made by CROCO </p>
+            <div class="proLinks">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        $('#menuBtn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menuClose').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
